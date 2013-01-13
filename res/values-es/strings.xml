@@ -18,6 +18,11 @@
     <string name="preferences_advanced_enabled_confirmaton_sms_title">SMS de confirmación</string>
     <string name="preferences_advanced_enabled_confirmaton_sms_summary">Para enviar un SMS de confirmación sobre la acción completada.</string>
     <string name="preferences_advanced_change_password">Cambiar contraseña</string>
+    <string name="preferences_advanced_remove_admin">Elimina aeGis del Administrador de dispositivos.</string>
+    <string name="preferences_advanced_remove_admin_summary">Te permite desinstalar aeGis de tu dispositivo.</string>
+    <string name="preferences_advanced_remove_admin_completed">aeGis no vuelve a estar en el Administrador de Dispositivos</string>
+    <string name="preferences_advanced_install_to_system">Instala aeGis como aplicación del sistema.</string>
+    <string name="preferences_advanced_install_to_system_summary">Previene que aeGis sea desinstalado aun si resetean el dispositivo.</string>
     <string name="preferences_alarm_category">Alarma</string>
     <string name="preferences_alarm_enabled_title">Alarma</string>
     <string name="preferences_alarm_enabled_summary">Reproduce una alarma y activa el sonido del timbre en el dispositivo.</string>
@@ -49,7 +54,7 @@
     <string name="preferences_locate_update_duration_title">El Intervalo de Actualización de la Ubicación.</string>
     <string name="preferences_locate_update_duration_summary">Elija la frecuencia con que tiene lugar el intento para obtener una localización más exacta del dispositivo que está siendo rastreado. Un menor tiempo de provocara que la batería se agote más rapido en el dispositivo.</string>
     <string name="preferences_locate_minimum_distance_title">Distancia mínima de ubicación</string>
-    <string name="preferences_locate_minimum_distance_summary">Elegir la distancia mínima de cambio del servicio de localización que provocará una actualización de*la ubicación.</string>
+    <string name="preferences_locate_minimum_distance_summary">Elegir la distancia mínima de cambio del servicio de localización que provocará una actualización de la ubicación.</string>
     
     <string name="util_sendsms_alarm_pass">aeGis: Activado el Sonido.</string>
     <string name="util_sendsms_alarm_fail">aeGis: No se ha podido anular la configuración de sonido. Error:</string>
@@ -61,7 +66,7 @@
     
     <string name="register_password_textview">Contraseña</string>
     <string name="register_password_confirm_textview">Confirme la Contraseña</string>
-    <string name="register_password_button">Continue</string>
+    <string name="register_password_button">Continúe</string>
     <string name="register_password_toast_password_set">La contraseña es:</string>
     <string name="register_password_toast_password_fail">Ingrese la contraseña y valide</string>
     <string name="register_password_toast_password_match_fail">Error de coincidencia</string>
@@ -74,7 +79,7 @@
     <string name="login_password_toast_password_enter">Por favor, introduzca la contraseña</string>
     <string name="login_password_summary">Por favor, inicie sesion para desbloquear aeGis</string>
     
-    <string name="about_developer_name">Copyright(©) 2012 Adnan Begovic</string>
+    <string name="about_developer_name">Copyright(©) 2013 Adnan Begovic</string>
     <string name="about_github_link">Link a Github</string>
     <string name="about_email_link">Envia un email al creador</string>
     <string name="about_share_link">Comparte aeGis</string>
@@ -82,6 +87,11 @@
     <string name="overflow_settings">Cambiar contraseña</string>
     <string name="overflow_licenses">Licencias</string>
     <string name="overflow_about">Acerca de</string>
+   
+    <string name="advanced_dialog_install_to_system">¿Quieres instalar aeGis al sistema?\n\nSi lo hace impediras que aeGis sea desinstalada aun si se resetea el dispositivo.\n\nAdvertencia: Tu dispositivo se reiniciara para verificar el proceso.\nNo se puede deshacer</string>
+    <string name="advanced_dialog_install">Instalar</string>
+    <string name="advanced_dialog_cancel">Cancelar</string>
+    <string name="advanced_install_to_system_fail">aeGis ya es una aplicacion del sistema</string>
     
     <string name="array_update_item1">30 segundos</string>
     <string name="array_update_item2">1 minutos</string>

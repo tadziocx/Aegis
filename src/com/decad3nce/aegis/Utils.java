@@ -78,7 +78,7 @@ public class Utils {
         am.setStreamVolume(AudioManager.STREAM_RING, maxVolume,
                 AudioManager.FLAG_REMOVE_SOUND_AND_VIBRATE);
 
-        Intent i = new Intent(context, AegisActivity.class);
+        Intent i = new Intent(context, LoginActivity.class);
         i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP
                 | Intent.FLAG_ACTIVITY_SINGLE_TOP);
 
@@ -136,8 +136,6 @@ public class Utils {
 
             try {
                 Log.i(TAG, "Locking device");
-                //Override time to lock for some HTC/Motorola devices
-                devicePolicyManager.setMaximumTimeToLock(AegisActivity.DEVICE_ADMIN_COMPONENT, 1000);
                 devicePolicyManager.lockNow();
                 Utils.sendSMS(context, SMSReceiver.address,
                         context.getResources().getString(R.string.util_sendsms_lock_pass) + " " + password);

@@ -18,6 +18,11 @@
     <string name="preferences_advanced_enabled_confirmaton_sms_title">Confirmation SMS</string>
     <string name="preferences_advanced_enabled_confirmaton_sms_summary">Whether to send confirmation SMS on completed action.</string>
     <string name="preferences_advanced_change_password">Change Password</string>
+    <string name="preferences_advanced_remove_admin">Remove as Device Admin</string>
+    <string name="preferences_advanced_remove_admin_summary">Allows you to directly uninstall aeGis.</string>
+    <string name="preferences_advanced_remove_admin_completed">No longer a device admin</string>
+    <string name="preferences_advanced_install_to_system">Install aeGis to system</string>
+    <string name="preferences_advanced_install_to_system_summary">Prevents aeGis from being removed even if device is reset.</string>
     <string name="preferences_alarm_category">Alarm</string>
     <string name="preferences_alarm_enabled_title">Alarm</string>
     <string name="preferences_alarm_enabled_summary">Play an alarm and enable ringer sound on device.</string>
@@ -74,14 +79,22 @@
     <string name="login_password_toast_password_enter">Please enter the password</string>
     <string name="login_password_summary">Please login to continue to aeGis</string>
     
-    <string name="about_developer_name">Copyright(&#169;) 2012 Adnan Begovic</string>
+    <string name="about_developer_name">Copyright(&#169;) 2013 Adnan Begovic</string>
     <string name="about_github_link">Github source link</string>
     <string name="about_email_link">Send email to developer</string>
     <string name="about_share_link">Share aeGis</string>
+    <string name="about_xda_link">Support thread on XDA</string>
     
     <string name="overflow_advanced_settings">Settings</string>
     <string name="overflow_licenses">Licenses</string>
     <string name="overflow_about">About</string>
+    
+    <string name="advanced_dialog_install_to_system">Do you want to install aeGis to the system?\n\nDoing so prevents uninstall even if the device is factory reset.\n\nWarning: Your device will reboot to confirm completion.\nThis cannot be undone.</string>
+    <string name="advanced_dialog_install">Install</string>
+    <string name="advanced_dialog_cancel">Cancel</string>
+    <string name="advanced_dialog_installing">Installing to system...</string>
+    <string name="advanced_dialog_installing_failed">Need superuser access to install to system.</string>
+    <string name="advanced_install_to_system_fail">aeGis is already a system app</string>
     
     <string name="array_update_item1">30 seconds</string>
     <string name="array_update_item2">1 minute</string>
